@@ -1030,21 +1030,36 @@
 // You may assume that each input would have exactly one solution, and you may not use the same element twice.
 // You can return the answer in any order.
 
-function twoSum(nums, target) {
-    const array = []
+// function twoSum(nums, target) {
+//     const array = []
    
-    for (let i = 0; i<nums.length; i++){
-      for (j = 1; j<nums.length; j++){
-        if(nums[i]+nums[j] === target && i !== j){
-           array.push(i, j)
-           return array
-          }
-      }
-    }
+//     for (let i = 0; i<nums.length; i++){
+//       for (j = 1; j<nums.length; j++){
+//         if(nums[i]+nums[j] === target && i !== j){
+//            array.push(i, j)
+//            return array
+//           }
+//       }
+//     }
 
+// };
+
+// console.log(twoSum([2,7,11,15], 9)) // [0,1]
+// console.log(twoSum([3,2,4], 6)) //[1,2]
+// console.log(twoSum([3,3], 6)) //[0,1]
+// console.log(twoSum([2,5,5,11], 10)) //[1,2]
+
+// Longest Common Prefix
+// Write a function to find the longest common prefix string amongst an array of strings.
+// If there is no common prefix, return an empty string "".
+
+function longestCommonPrefix(strs) {
+  for (let i in strs){
+    
+  }
+    
 };
 
-console.log(twoSum([2,7,11,15], 9)) // [0,1]
-console.log(twoSum([3,2,4], 6)) //[1,2]
-console.log(twoSum([3,3], 6)) //[0,1]
-console.log(twoSum([2,5,5,11], 10)) //[1,2]
+console.log(longestCommonPrefix(["flower","flow","flight"])) // fl
+// console.log(longestCommonPrefix(["dog","racecar","car"])) // ""
+// console.log(longestCommonPrefix())
