@@ -65,7 +65,6 @@
 //     t++
 // }
 
-
 // function greetings(nombre, apellido){
 //     return `Mi nombre es ${nombre} y mi apellido es ${apellido}`
 // }
@@ -86,7 +85,7 @@
 // function sayMyName(name) {
 //     return ("Tu nombre es " + name)
 //   }
-  
+
 //   const name = "Nayib";
 //   console.log(sayMyName(name));
 
@@ -95,7 +94,6 @@
 // for(let i in arr){
 //     console.log(arr[i])
 // }
-
 
 // function retornaElementos(array, index1, index2){
 //     const arr2 = []
@@ -132,6 +130,7 @@
 // console.log(""[0]); //undefined
 // console.log(" El cielo es azul"[20]); // undefined
 
+//contar elementos de un string
 // function countingEs(string){
 //     let counter = 0
 //     for(let i in string){
@@ -156,6 +155,7 @@
 // console.log(message(["El", "método", "join", "me", "permite", "unir", "elementos"])); //  El método join me permite unir elementos
 // console.log(message(["Java", "Script", "es", "muy", "útil"])) //JavaScript es muy útil
 
+// contraseña
 // function contrasena(string){
 //     let string2 = string.toLowerCase().replaceAll(" ","").split("")
 //     for(let i in string2){
@@ -181,6 +181,7 @@
 // console.log(contrasena("esta es una prueba")); // "3st43sun4pru3b4"
 // console.log(contrasena("")); // ""
 
+// capitalizar primera letra de cada palabra de un string
 // function capitalize(string){
 //    let word = string.split(" ")
 //    for(let i in word){
@@ -192,12 +193,11 @@
 // console.log(capitalize("pedro perez")); // "Pedro Perez"
 // console.log(capitalize("make it real")); // "Make It Real"
 
-
 // let recipe = {
 //     "Leche en polvo": "1 litro",
 //     "Chocolate en barra": "3 barras",
 //     azucar: "3 gramos"
-// } 
+// }
 
 // for (let key in recipe) {
 //     if (recipe.hasOwnProperty(key)) {
@@ -211,6 +211,7 @@
 
 // console.log(recipe.mixIngredients())
 
+// agrega un numero al final de un array
 // function agrega(array, num){
 //     arr2 = []
 //     for (let i in array){
@@ -247,7 +248,7 @@
 //       albumTitle: 'ABBA Gold'
 //     }
 //   };
-  
+
 //  console.log(recordCollection[2548].artist)
 
 //   If prop isn't tracks and value isn't an empty string, update or set that album's prop to value. ok
@@ -266,12 +267,12 @@
 //         }else if(value === ""){
 //             delete records[id][prop]
 //         }
-        
+
 //     return records;
 //   }
 
 // // console.log(updateRecords())
-  
+
 // // console.log(updateRecords(recordCollection, 5439, "artist", "ABBA"));
 // // console.log(updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me"))
 // // console.log(updateRecords(recordCollection, 2548, "artist", ""))
@@ -279,7 +280,6 @@
 // // console.log(updateRecords(recordCollection, 2468, "tracks", "Free"))
 // // console.log(updateRecords(recordCollection, 2548, "tracks", ""))
 // console.log(updateRecords(recordCollection, 1245, "albumTitle", "Riptide"))
-
 
 // const myArray = [];
 
@@ -295,7 +295,7 @@
 
 // function multiplyAll(arr) {
 //     let product = 1;
-    // Only change code below this line
+// Only change code below this line
 //   for(let i=0; i<arr.length; i++){
 //     for(let j=0; j<arr[i].length; j++){
 //         product = product * arr[i][j]
@@ -304,7 +304,7 @@
 //     // Only change code above this line
 //     return product;
 //   }
-  
+
 //   console.log(multiplyAll([[1, 2], [3, 4], [5, 6, 7]]));
 
 // Setup
@@ -339,7 +339,7 @@
 // If both are true, then return the "value" of that property.
 // If name does not correspond to any contacts then return the string No such contact.
 // If prop does not correspond to any valid properties of a contact found to match name then return the string No such property.
-  
+
 //   function lookUpProfile(name, prop) {
 //     for (let i in contacts){
 //         if(contacts[i].firstName === name && contacts[i][prop] === undefined){
@@ -351,7 +351,7 @@
 //     return `No such contact`
 //   }
 // //   console.log(lookUpProfile())
-  
+
 // console.log(lookUpProfile("Akira", "likes"))
 // console.log(lookUpProfile("Kristian", "lastName")) //should return the string Vos
 // console.log(lookUpProfile("Sherlock", "likes")) //should return ["Intriguing Cases", "Violin"]
@@ -360,10 +360,10 @@
 // console.log(lookUpProfile("Bob", "potato")) //should return the string No such contact
 // console.log(lookUpProfile("Akira", "address"))// should return the string No such property
 
-// function randomRange(myMin, myMax) { //crea un numero aleatorio dentro de un rango 
-    
+// function randomRange(myMin, myMax) { //crea un numero aleatorio dentro de un rango
+
 //     return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin
-//     //                                   10        6       +   4  
+//     //                                   10        6       +   4
 //   }
 
 //   console.log(randomRange(5, 10))
@@ -383,12 +383,12 @@
 //   console.log(countdown(10))
 //   console.log(countdown(5))
 
-// otro ejemplo de recursion: We have defined a function named rangeOfNumbers with two parameters. 
-// The function should return an array of integers which begins with a 
-// number represented by the startNum parameter and ends with a number 
-// represented by the endNum parameter. The starting number will always 
-// be less than or equal to the ending number. Your function must use 
-// recursion by calling itself and not use loops of any kind. 
+// otro ejemplo de recursion: We have defined a function named rangeOfNumbers with two parameters.
+// The function should return an array of integers which begins with a
+// number represented by the startNum parameter and ends with a number
+// represented by the endNum parameter. The starting number will always
+// be less than or equal to the ending number. Your function must use
+// recursion by calling itself and not use loops of any kind.
 // It should also work for cases where both startNum and endNum are the same.
 
 // function rangeOfNumbers(startNum, endNum) {
@@ -424,12 +424,11 @@
 
 // console.log(...arr)
 
-
 //copiar un array en otro con spread
 // const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
 // let arr2;
 
-// arr2 = [...arr1];  
+// arr2 = [...arr1];
 
 // console.log(arr2);
 
@@ -453,7 +452,7 @@
 // const sourceWithoutFirstTwo = removeFirstTwo(source);
 // console.log(sourceWithoutFirstTwo)
 
-// Use destructuring assignment within the argument to the 
+// Use destructuring assignment within the argument to the
 // function half to send only max and min inside the function.
 
 // const stats = {
@@ -466,7 +465,7 @@
 // };
 
 // // Only change code below this line
-// const half = ({max, min}) => (max + min) /2 
+// const half = ({max, min}) => (max + min) /2
 // // Only change code above this line
 
 //funcion que suma y retorna el valor mayor entre los arrays
@@ -486,14 +485,13 @@
 // console.log(maximumWealth([[1,2,3],[3,2,1]]))
 // console.log(maximumWealth([[1,5],[7,3],[3,5]]))
 
-
 //Given an integer n, return a string array answer (1-indexed) where:
 
 // answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
 // answer[i] == "Fizz" if i is divisible by 3.
 // answer[i] == "Buzz" if i is divisible by 5.
 // answer[i] == i (as a string) if none of the above conditions are true.
- 
+
 // function fizzBuzz (n) {
 //   const arr = []
 //   for (let i = 1; i <= n; i++){
@@ -513,9 +511,7 @@
 //   return arr
 // }
 
-
 // console.log(fizzBuzz(15))
-
 
 // Given an integer num, return the number of steps to reduce it to zero.
 // In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
@@ -523,12 +519,12 @@
 //example
 // Input: num = 14
 // Output: 6
-// Explanation: 
-// Step 1) 14 is even; divide by 2 and obtain 7. 
+// Explanation:
+// Step 1) 14 is even; divide by 2 and obtain 7.
 // Step 2) 7 is odd; subtract 1 and obtain 6.
-// Step 3) 6 is even; divide by 2 and obtain 3. 
-// Step 4) 3 is odd; subtract 1 and obtain 2. 
-// Step 5) 2 is even; divide by 2 and obtain 1. 
+// Step 3) 6 is even; divide by 2 and obtain 3.
+// Step 4) 3 is odd; subtract 1 and obtain 2.
+// Step 5) 2 is even; divide by 2 and obtain 1.
 // Step 6) 1 is odd; subtract 1 and obtain 0.
 
 // function numberOfSteps(num) {
@@ -578,7 +574,6 @@
 // const failuresList = makeList(result.failure);
 // console.log(failuresList)
 
-
 // Use the class keyword to create a Thermostat class. The constructor accepts a Fahrenheit temperature.
 // In the class, create a getter to obtain the temperature in Celsius and a setter to set the temperature in Celsius.
 // Remember that C = 5/9 * (F - 32) and F = C * 9.0 / 5 + 32, where F is the value of temperature in Fahrenheit, and C is the value of the same temperature in Celsius.
@@ -590,11 +585,11 @@
 //   constructor(fahrenheit) {
 //     this._fahrenheit = fahrenheit;
 //   }
-  
+
 //   get temperature() {
 //     return (5 / 9) * (this._fahrenheit - 32);
 //   }
-  
+
 //   set temperature(celsius) {
 //     this._fahrenheit = (celsius * 9.0) / 5 + 32;
 //   }
@@ -605,12 +600,11 @@
 // thermos.temperature = 26;
 // temp = thermos.temperature; // 26 in Celsius
 
-
 // Reverse the provided string and return the reversed string.
 // For example, "hello" should become "olleh".
 
 // function reverseString(str) {
-//   let str1 = str.split("").reverse().join("") 
+//   let str1 = str.split("").reverse().join("")
 //   return str1;
 // }
 
@@ -632,44 +626,41 @@
 // Your response should be a number.
 
 // function findLongestWordLength(str) {
-  //   let str1 = str.split(" ")
-  //   let maxLength = 0
-  //   let longestWord = ''
-  //   for (let i in str1){
-    //     if(str1[i].length > maxLength){
-      //       maxLength = str1[i].length
-      //       console.log(maxLength, str1[i])
-      //       longestWord = str1[i]
-      //     }
-      
-      //   }
-      
-      //   return `The longest word is ${longestWord} and it has ${maxLength} letters`;
-      // }
-      
-      // console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
-      
+//   let str1 = str.split(" ")
+//   let maxLength = 0
+//   let longestWord = ''
+//   for (let i in str1){
+//     if(str1[i].length > maxLength){
+//       maxLength = str1[i].length
+//       console.log(maxLength, str1[i])
+//       longestWord = str1[i]
+//     }
 
+//   }
 
-      // function largestOfFour(arr) {
-      //   let arr1 = []
-      //   let larguest = arr[0] 
-      //   for(let i in arr){
-      //     if(arr[i] > larguest){
-      //       larguest = arr[i]
-      //       // console.log(larguest, i)
-      //     }
-      //   }
-      //   arr1.push(larguest)
-      //   return arr1;
-      //   }
-      //   console.log(largestOfFour([4, 5, 1, 3]))
-      //   console.log(largestOfFour([-72, -3, -17, -10]))
+//   return `The longest word is ${longestWord} and it has ${maxLength} letters`;
+// }
 
+// console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
+
+// function largestOfFour(arr) {
+//   let arr1 = []
+//   let larguest = arr[0]
+//   for(let i in arr){
+//     if(arr[i] > larguest){
+//       larguest = arr[i]
+//       // console.log(larguest, i)
+//     }
+//   }
+//   arr1.push(larguest)
+//   return arr1;
+//   }
+//   console.log(largestOfFour([4, 5, 1, 3]))
+//   console.log(largestOfFour([-72, -3, -17, -10]))
 
 // Return an array consisting of the largest number from each provided sub-array.
 // For simplicity, the provided array will contain exactly 4 sub-arrays.
-// Remember, you can iterate through an array with a simple for loop, and access each 
+// Remember, you can iterate through an array with a simple for loop, and access each
 //  with array syntax arr[i].
 
 // function largestOfFour(arr) {
@@ -686,14 +677,13 @@
 //   return arr1;
 //   }
 
-
 // console.log(largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]));
 // console.log(largestOfFour([[13, 27, 18, 26], [4, 5, 1, 3], [32, 35, 37, 39], [1000, 1001, 857, 1]]))
 // console.log(largestOfFour([[17, 23, 25, 12], [25, 7, 34, 48], [4, -10, 18, 21], [-72, -3, -17, -10]]))
 
 // Check if a string (first argument, str) ends with the given target string (second argument, target).
 // This challenge can be solved with the .endsWith() method, which was introduced in ES2015.
-// But for the purpose of this challenge, 
+// But for the purpose of this challenge,
 // we would like you to use one of the JavaScript substring methods instead.
 
 // forma 1
@@ -711,7 +701,7 @@
 // }
 // console.log(confirmEnding("Bastian", "ian"));
 
-// Repeat a given string str (first argument) for num times (second argument). 
+// Repeat a given string str (first argument) for num times (second argument).
 // Return an empty string if num is not a positive number.
 // For the purpose of this challenge, do not use the built-in .repeat() method.
 
@@ -752,8 +742,8 @@
 // console.log(truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length + 2))
 // console.log(truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length))
 
-// Create a function that looks through an array arr and returns the first element 
-// in it that passes a 'truth test'. 
+// Create a function that looks through an array arr and returns the first element
+// in it that passes a 'truth test'.
 // This means that given an element x, the 'truth test' is passed if func(x) is true.
 // If no element passes the test, return undefined.
 
@@ -834,7 +824,7 @@
 //   for(let i in arr2){
 //     if(Boolean(arr2[i])){
 //       arr3.push(arr2[i])
-      
+
 //     }
 //   }
 
@@ -843,11 +833,11 @@
 
 // console.log(bouncer([7, "ate", "", false, 9]));
 
-// Return the lowest index at which a value (second argument) should be inserted into 
+// Return the lowest index at which a value (second argument) should be inserted into
 // an array (first argument) once it has been sorted. The returned value should be a number.
 // For example, getIndexToIns([1,2,3,4], 1.5) should return 1 because it is greater than 1 (index 0),
 // but less than 2 (index 1).
-// Likewise, getIndexToIns([20,3,5], 19) should return 2 because once the array has 
+// Likewise, getIndexToIns([20,3,5], 19) should return 2 because once the array has
 // been sorted it will look like [3,5,20] and 19 is less than 20 (index 2) and greater than 5 (index 1).
 
 // function getIndexToIns(arr, num) {
@@ -869,9 +859,9 @@
 // console.log(getIndexToIns([2, 20, 10], 19)) //should return 2.
 // console.log(getIndexToIns([2, 5, 10], 15)) //should return 3
 
-// Return true if the string in the first element of the array contains all of 
+// Return true if the string in the first element of the array contains all of
 // the letters of the string in the second element of the array.
-// For example, ["hello", "Hello"], should return true because all of the letters 
+// For example, ["hello", "Hello"], should return true because all of the letters
 // in the second string are present in the first, ignoring case.
 // The arguments ["hello", "hey"] should return false because the string hello does not contain a y.
 // Lastly, ["Alien", "line"], should return true because all of the letters in line are present in Alien.
@@ -887,7 +877,6 @@
 //     }
 //       return true
 //   }
-
 
 // console.log(mutation(["hello", "hey"]));
 // console.log(mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"])) // should return true.
@@ -914,14 +903,12 @@
 // console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 3))
 // console.log(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2))
 
-
-// Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', 
+// Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
 // determine if the input string is valid.
 // An input string is valid if:
 // Open brackets must be closed by the same type of brackets.
 // Open brackets must be closed in the correct order.
 // Every close bracket has a corresponding open bracket of the same type.
-
 
 // function isValid(s) {
 //     const simbolos = {
@@ -929,7 +916,7 @@
 //       "(": ")",
 //       "[": "]"
 //     }
-  
+
 //       if(s.length % 2 !== 0){
 //       return false
 //     } else if(Object.values(simbolos).includes(s[0])){ //selecciona el primer caracter
@@ -939,7 +926,7 @@
 //             // s[s.length-1] === "(" || s[s.length-1] === "{" || s[s.length-1] === "["
 //       return false
 //     }
-  
+
 //     let acum = []
 //     for(let i in s){
 //       if(Object.keys(simbolos).includes(s[i])){
@@ -955,7 +942,6 @@
 //     return false
 //   }
 
-    
 // console.log(isValid("(([]")) //false
 // console.log(isValid("(([]){})")) //true
 // console.log(isValid("([)]")) //false
@@ -994,23 +980,22 @@
 // if(s.includes("IX")){
 //   acum -= 2
 // }
-  
+
 // if(s.includes("XL")){
 //   acum -= 20
 // }
 // if(s.includes("XC")){
 //   acum -= 20
 // }
-  
+
 // if(s.includes("CD")){
 //   acum -= 200
 // }
-  
+
 // if(s.includes("CM")){
 //   acum -= 200
 // }
 
-  
 // return acum
 // }
 
@@ -1032,7 +1017,7 @@
 
 // function twoSum(nums, target) {
 //     const array = []
-   
+
 //     for (let i = 0; i<nums.length; i++){
 //       for (j = 1; j<nums.length; j++){
 //         if(nums[i]+nums[j] === target && i !== j){
@@ -1053,13 +1038,71 @@
 // Write a function to find the longest common prefix string amongst an array of strings.
 // If there is no common prefix, return an empty string "".
 
-function longestCommonPrefix(strs) {
-  for (let i in strs){
-    
-  }
-    
-};
+// function longestCommonPrefix(strs) {
+//   let prefix = strs[0];
+//   let i = 1
+//   while(i < strs.length){
+//     if(!strs[i].startsWith(prefix)){
+//       prefix = prefix.slice(0, -1)
+//     }else{
+//       i++
+//     }
+//   }
+//     return prefix;
+//   }
 
-console.log(longestCommonPrefix(["flower","flow","flight"])) // fl
+// console.log(longestCommonPrefix(["flower","flow","flight"])) // fl
 // console.log(longestCommonPrefix(["dog","racecar","car"])) // ""
-// console.log(longestCommonPrefix())
+// console.log(longestCommonPrefix(["a"])) // "a"
+// console.log(longestCommonPrefix(["reflower","flow","flight"])) // ""
+// console.log(longestCommonPrefix(["",""]))
+// console.log(longestCommonPrefix(["flower", "flower", "flower", "flower"])); // flower
+
+// Given an integer x, return true if x is a
+// palindrome, and false otherwise.
+
+// function isPalindrome(x) {
+//   let xx = x.toString();
+//   let x1 = xx.split("").reverse();
+//   let back = x1.join("");
+//   if (xx === back) {
+//     return true;
+//   }
+//   return false;
+// }
+
+// console.log(isPalindrome("casac")); //true
+// console.log(isPalindrome(-121)); //false
+// console.log(isPalindrome(10)); //false
+// console.log(isPalindrome(1221)); //true
+
+
+// function mergeTwoLists (list1, list2){
+
+//     let result = list1.concat(list2)
+//     return result.sort()
+
+// }
+
+// function mergeTwoLists (list1, list2){
+    
+//     const arr = [...list1, ...list2]   
+//     return arr.sort()
+
+// }
+
+// console.log(mergeTwoLists([1,2,4], [1,3,4]))
+// console.log(mergeTwoLists([], []))
+// console.log(mergeTwoLists([], [0]))
+// console.log(mergeTwoLists())
+
+// destructuring
+// const arr = [1,2,3]
+// const [a,b,c] = arr
+// console.log(a)
+// console.log(b)
+// console.log(c)
+
+// const suma = a+b
+// console.log(`la suma es ${suma}`)
+
